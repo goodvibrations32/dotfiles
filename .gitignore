@@ -11,3 +11,5 @@ xfce/desktop
 xfce/panel
 xfce/terminal
 xfce/xfconf
+
+__pycache__/
