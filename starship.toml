@@ -1,0 +1,8 @@
+#[line_break]
+#disabled=true
+
+#custom format from dt
+format = """
+[---------------->](bold green)
+[|](bold green)$directory$rust$package
+[-->](bold green)"""

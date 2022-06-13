@@ -1,0 +1,6 @@
+2022/06/09-00:34:14.729 bf882 Reusing MANIFEST /home/experimental/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2022/06/09-00:34:14.730 bf882 Recovering log #4
+2022/06/09-00:34:14.734 bf882 Reusing old log /home/experimental/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2022/06/09-00:34:25.325 bf882 Level-0 table #8: started
+2022/06/09-00:34:25.339 bf882 Level-0 table #8: 1907472 bytes OK
+2022/06/09-00:34:25.341 bf882 Delete type=0 #4
