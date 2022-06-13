@@ -236,7 +236,7 @@ for i in groups:
 def init_layout_theme():
     return {"margin":5,
             "border_width":2,
-            "border_focus": "#61FF00",
+            "border_focus": "#ff00ff",
             "border_normal": "#4c566a"
             }
 
