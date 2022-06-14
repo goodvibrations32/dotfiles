@@ -244,8 +244,8 @@ layout_theme = init_layout_theme()
 
 
 layouts = [
-    layout.MonadTall(margin=8, border_width=2, border_focus="#61FF00", border_normal="#4c566a"),
-    layout.MonadWide(margin=8, border_width=2, border_focus="#61FF00", border_normal="#4c566a"),
+    layout.MonadTall(margin=8, border_width=2, border_focus="#FF00FF", border_normal="#4c566a"),
+    layout.MonadWide(margin=8, border_width=2, border_focus="#ff00ff", border_normal="#4c566a"),
     layout.Matrix(**layout_theme),
     layout.Bsp(**layout_theme),
     layout.Floating(**layout_theme),
