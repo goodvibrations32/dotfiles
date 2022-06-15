@@ -11,5 +11,11 @@ xfce/desktop
 xfce/panel
 xfce/terminal
 xfce/xfconf
+dconf
 
 __pycache__/
+
+*.pyc 
+user
+*.log
+*.xml
