@@ -10,7 +10,7 @@ Atom/Cache
 xfce/desktop
 xfce/panel
 xfce/terminal
-xfce4
+xfce4/
 dconf
 
 __pycache__/
@@ -22,5 +22,5 @@ user
 *.log
 *.xml
 
-variety/*.txt
-variety/*.log
+variety/
+Thunar/

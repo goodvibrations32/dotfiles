@@ -35,6 +35,7 @@ from libqtile import qtile
 from libqtile import layout, bar, widget, hook
 from libqtile.config import Click, Drag, Group, Key, Match, Screen, Rule
 from libqtile.command import lazy
+from libqtile.lazy import lazy
 from libqtile.widget import Spacer
 #import arcobattery
 
@@ -132,9 +133,10 @@ keys = [
         lazy.layout.shrink(),
         lazy.layout.increase_nmaster(),),
 
-
-
-# CHANGE KEYBOARD LAYOUT
+    Key([mod], "e",
+        lazy.spawn("emacsclient -c -a emacs"),
+        ),
+#    Key([mod1,"shift"], "e", lazy.spawn("emacsclient -c -a 'emacs'"),),
 
 
 # FLIP LAYOUT FOR MONADTALL/MONADWIDE
@@ -202,7 +204,7 @@ group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
 #group_names = ["ampersand", "eacute", "quotedbl", "apostrophe", "parenleft", "section", "egrave", "exclam", "ccedilla", "agrave",]
 
 #group_labels = ["1 ", "2 ", "3 ", "4 ", "5 ", "6 ", "7 ", "8 ", "9 ", "0",]
-group_labels = ["", "", "", "", "", "", "", "", "", ""," "]
+group_labels = ["", "", "", "", "", "", "", "", "", ""," ",]
 #group_labels = ["Web", "Edit/chat", "Image", "Gimp", "Meld", "Video", "Vb", "Files", "Mail", "Music",]
 
 group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall",]

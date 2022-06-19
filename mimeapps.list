@@ -2,7 +2,7 @@
 application/gzip=org.gnome.FileRoller.desktop;
 application/json=sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
 application/octet-stream=sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
-application/pdf=librewolf.desktop;org.kde.okular.desktop;org.gnome.Evince.desktop;
+application/pdf=librewolf.desktop;gimp.desktop;libreoffice-draw.desktop;brave-browser.desktop;org.kde.okular.desktop;org.gnome.Evince.desktop;
 application/pgp-encrypted=sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
 application/pgp-keys=sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
 application/pgp-signature=sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
@@ -58,7 +58,7 @@ image/x-xcf=gimp.desktop;
 inode/directory=org.kde.dolphin.desktop;exo-file-manager.desktop;thunar
 text/css=sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
 text/html=firefox.desktop;
-text/markdown=atom.desktop;sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
+text/markdown=emacsclient.desktop;atom.desktop;sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
 text/plain=atom.desktop;sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
 text/x-changelog=sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
 text/x-chdr=sublime_text.desktop;code-oss.desktop;visual-studio-code.desktop;
