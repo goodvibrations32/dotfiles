@@ -10,7 +10,7 @@ Atom/Cache
 xfce/desktop
 xfce/panel
 xfce/terminal
-xfce4/xfconf
+xfce4
 dconf
 
 __pycache__/
