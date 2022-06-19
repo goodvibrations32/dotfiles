@@ -10,12 +10,17 @@ Atom/Cache
 xfce/desktop
 xfce/panel
 xfce/terminal
-xfce/xfconf
+xfce4/xfconf
 dconf
 
 __pycache__/
-
+qtile/__pycache__/
+pulse
+libreoffice/4
 *.pyc 
 user
 *.log
 *.xml
+
+variety/*.txt
+variety/*.log
