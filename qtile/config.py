@@ -296,7 +296,7 @@ def init_widgets_list():
                         borderwidth = 0,
                         disable_drag = True,
                         active = colors[0],
-                        inactive = colors[5],
+                        inactive = colors[4],
                         rounded = False,
                         highlight_method = "text",
                         this_current_screen_border = colors[7],
@@ -304,24 +304,25 @@ def init_widgets_list():
                         background = colors[1]
                         ),
                widget.Sep(
-                        linewidth = 1,
+                        linewidth = 3,
                         padding = 10,
-                        foreground = colors[2],
+                        foreground = colors[8],
                         background = colors[1]
                         ),
                widget.CurrentLayout(
                         font = "Hack Bold",
+                        fontsize = 20,
                         foreground = colors[9],
                         background = colors[1]
                         ),
                widget.Sep(
-                        linewidth = 1,
+                        linewidth = 3,
                         padding = 10,
-                        foreground = colors[2],
+                        foreground = colors[8],
                         background = colors[1]
                         ),
                widget.WindowName(font="Hack Bold",
-                        fontsize = 12,
+                        fontsize = 15,
                         foreground = colors[0],
                         background = colors[1],
                         ),
@@ -453,7 +454,7 @@ def init_widgets_list():
 
                widget.TextBox(
                         font="Hack",
-                        text=" ",
+                        text="",
                         foreground=colors[3],
                         background=colors[1],
                         padding = 0,
@@ -462,19 +463,12 @@ def init_widgets_list():
 
               widget.KeyboardLayout(
                         font="Hack Bold",
+                        fontsize=15,
                        foreground = colors[8],
                        background = colors[1],
-                       fmt = 'Keyboard:{}',
+                       fmt = ':{}',
                        padding = 5
                        ),
-              # widget.TextBox(
-              #          text = '',
-              #          font = "Ubuntu Mono",
-              #          background = colors[5],
-              #          foreground = colors[1],
-              #          padding = 0,
-              #          fontsize = 37
-              #          ),
               widget.TextBox(
                         font="Hack",
                         text="ﲊ ",
@@ -487,7 +481,7 @@ def init_widgets_list():
                         font="Hack Bold",
                         foreground = colors[0],
                         background = colors[1],
-                        fontsize = 12,
+                        fontsize = 15,
                         format="%d-%m-%Y %H:%M:%S"
                         ),
               widget.TextBox(
@@ -500,6 +494,7 @@ def init_widgets_list():
                        ),
               widget.Clock(
                         font="Hack Bold",
+                        fontsize=15,
                        foreground = colors[0],
                        background = colors[1],
                        format = "%A"
