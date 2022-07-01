@@ -6,7 +6,8 @@
     <property name="process-tree" type="bool" value="true"/>
     <property name="full-command-line" type="bool" value="true"/>
     <property name="show-all-processes" type="bool" value="false"/>
+    <property name="show-filter" type="bool" value="true"/>
   </property>
-  <property name="window-width" type="int" value="1323"/>
+  <property name="window-width" type="int" value="1898"/>
   <property name="window-height" type="int" value="989"/>
 </channel>
